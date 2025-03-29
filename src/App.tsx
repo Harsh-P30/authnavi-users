@@ -9,6 +9,7 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import Login from "@/pages/Login";
 import Users from "@/pages/Users";
 import NotFound from "@/pages/NotFound";
+import React from 'react';
 
 // Create a new QueryClient instance outside of the component
 const queryClient = new QueryClient({
